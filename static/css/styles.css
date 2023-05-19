@@ -1,0 +1,26 @@
+body {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header-logo {
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content:space-between;
+}
+ul li {
+  list-style-type: none;
+}
+
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img-gallery img {
+  width: 45%;
+  margin: 5px;
+}
